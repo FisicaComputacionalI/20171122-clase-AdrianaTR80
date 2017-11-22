@@ -5,8 +5,10 @@
 using namespace std;
 int main(){
 float a=0.15;
-float coseno=cos(a);
-
-cout << "El coseno de 0.15 es: " << coseno << endl;
+float coseno;
+cout << "Dame el ángulo " << endl;
+cin >> a;
+coseno = cos(a);
+cout << "El coseno del ángulo" << a <<" es: " << coseno << endl;
 return 0;
 }
