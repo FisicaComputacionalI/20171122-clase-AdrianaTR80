@@ -4,10 +4,9 @@
 #include <math.h>
 using namespace std;
 int main(){
-float a;
+float a=0.15;
 float coseno=cos(a);
-cout << "Introduce el angulo:";
-cin >> a;
-cout << "El coseno es " << coseno << endl;
+
+cout << "El coseno de 0.15 es: " << coseno << endl;
 return 0;
 }
